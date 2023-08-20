@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Adjust the icon size */
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+}
+/* Adjust the icon size */
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.center-image {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Set a fixed height for the container */
+    text-align: center;
+    border: 1px solid #ccc; /* Just for visualization */
+}
+
+.center-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Adjust the icon size */
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+}
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons */
+}
+
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+}
+
